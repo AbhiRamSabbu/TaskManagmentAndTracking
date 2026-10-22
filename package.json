@@ -1,0 +1,15 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Task Management Application with React and Spring Boot (MySQL)",
+  "scripts": {
+    "start": "npm run dev --prefix frontend",
+    "dev": "npm run dev --prefix frontend",
+    "frontend": "npm run dev --prefix frontend",
+    "backend": "cd springboot-backend && mvn spring-boot:run",
+    "backend:build": "cd springboot-backend && mvn package -DskipTests"
+  },
+  "keywords": ["tasks", "react", "springboot", "java", "mysql"],
+  "author": "",
+  "license": "ISC"
+}
